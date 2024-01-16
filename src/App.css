@@ -25,7 +25,6 @@
   justify-content: center;
   align-items: center;
   gap: 2.5rem;
- 
 }
 .google-logo {
   width: 1.25rem;
@@ -111,16 +110,15 @@
   padding: 5px;
   margin: 1rem 0rem;
 }
-.flex-content{
+.flex-content {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0.5rem 0rem;
 }
-.auth-footer{
-
+.auth-footer {
 }
-.flex-items{
+.flex-items {
   display: flex;
   gap: 1.25rem;
   align-items: center;
@@ -128,7 +126,124 @@
 }
 .toggle-visiblity {
   position: relative;
-  
+
   left: 85%;
   bottom: 2.5rem;
+}
+
+.side-nav-icon {
+  display: flex;
+  color: white;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0.5rem 1rem 0.5rem 0rem;
+  margin-top: 1rem;
+  margin-bottom: 0.8rem;
+  width: 10rem;
+}
+.side-nav-icon:hover{
+   cursor: pointer;
+   border-radius: 5px;
+   background:  rgba(255, 255, 255, 0.24);
+
+}
+.home-screen-layout {
+  display: flex;
+  background-color: black;
+  height: 100vh;
+  justify-content: space-between;
+}
+.sidenav-layout {
+  padding: 1rem;
+  border-right: 1px solid white;
+}
+.instgram-logo {
+  padding-top: 1.5rem;
+  padding-bottom: 3rem;
+}
+.logout-logo{
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-top: 5rem;
+  gap: 1rem;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.logout-logo:hover{
+
+  border-radius: 5px;
+  background:  rgba(255, 255, 255, 0.24);
+
+}
+
+.flex-align{
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 520;
+}
+.post-image{
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.post-button-section{
+  display: flex;
+  justify-content: flex-end;
+
+}
+.post-btn{
+  color: white;
+  background:  rgba(255, 255, 255, 0.24);
+  /* background-color: red; */
+  border: none;
+  padding: 2% 3.5%;
+  cursor: pointer;
+  border-radius: 5px;
+
+
+}
+#fileInput{
+  display: none;
+}
+.MuiTextarea-textarea{
+  color:white;
+  font-size: 0.9rem;
+}
+.custom-model{
+  position: fixed !important;
+  /* top: 130px !important; */
+}
+.post-duration{
+  color: #718096;
+}
+.userName{
+  color: white;
+}
+.unfollow-btn{
+  color: #3182ce;
+  height: 1.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.unfollow-btn:hover{
+  color: white;
+}
+.flex33{
+  display: flex;
+  align-items: center;
+}
+.header-bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 23px;
 }

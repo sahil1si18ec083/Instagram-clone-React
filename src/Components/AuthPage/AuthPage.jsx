@@ -25,7 +25,7 @@ const AuthPage = () => {
   //     clearTimeout(timer);
   //   };
   // }, [visibleImage]);
-  // console.log(visibleImage);
+  console.log(visibleImage);
   return (
     <div className="auth-body">
         <ToastContainer />
