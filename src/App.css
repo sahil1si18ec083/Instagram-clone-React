@@ -141,11 +141,10 @@
   margin-bottom: 0.8rem;
   width: 10rem;
 }
-.side-nav-icon:hover{
-   cursor: pointer;
-   border-radius: 5px;
-   background:  rgba(255, 255, 255, 0.24);
-
+.side-nav-icon:hover {
+  cursor: pointer;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.24);
 }
 .home-screen-layout {
   display: flex;
@@ -161,7 +160,7 @@
   padding-top: 1.5rem;
   padding-bottom: 3rem;
 }
-.logout-logo{
+.logout-logo {
   color: white;
   display: flex;
   align-items: center;
@@ -171,61 +170,56 @@
   padding: 0.5rem;
 }
 
-.logout-logo:hover{
-
+.logout-logo:hover {
   border-radius: 5px;
-  background:  rgba(255, 255, 255, 0.24);
-
+  background: rgba(255, 255, 255, 0.24);
 }
 
-.flex-align{
+.flex-align {
   display: flex;
   color: white;
   justify-content: space-between;
-  padding-top: 1rem;
+  /* padding-top: 1rem; */
   padding-bottom: 1rem;
   font-size: 1.2rem;
   font-weight: 520;
 }
-.post-image{
+.post-image {
   padding-top: 1rem;
   display: flex;
   justify-content: space-between;
 }
-.post-button-section{
+.post-button-section {
   display: flex;
   justify-content: flex-end;
-
 }
-.post-btn{
+.post-btn {
   color: white;
-  background:  rgba(255, 255, 255, 0.24);
+  background: rgba(255, 255, 255, 0.24);
   /* background-color: red; */
   border: none;
   padding: 2% 3.5%;
   cursor: pointer;
   border-radius: 5px;
-
-
 }
-#fileInput{
+#fileInput {
   display: none;
 }
-.MuiTextarea-textarea{
-  color:white;
+.MuiTextarea-textarea {
+  color: white;
   font-size: 0.9rem;
 }
-.custom-model{
+.custom-model {
   position: fixed !important;
   /* top: 130px !important; */
 }
-.post-duration{
+.post-duration {
   color: #718096;
 }
-.userName{
+.userName {
   color: white;
 }
-.unfollow-btn{
+.unfollow-btn {
   color: #3182ce;
   height: 1.5rem;
   font-weight: 700;
@@ -234,16 +228,122 @@
   border: none;
   cursor: pointer;
 }
-.unfollow-btn:hover{
+.unfollow-btn:hover {
   color: white;
 }
-.flex33{
+.flex33 {
   display: flex;
   align-items: center;
 }
-.header-bar{
+.header-bar {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 23px;
+}
+
+#Post {
+  color: white;
+}
+.btn-Post {
+  cursor: pointer;
+  background: none;
+  color: #3182ce;
+  border: none;
+}
+.btn-Post:hover {
+  color: white;
+}
+.icon-columns {
+  display: flex;
+  align-items: center;
+
+  gap: 1.3rem;
+}
+.footer-icons {
+  cursor: pointer !important;
+}
+.flex {
+  display: flex;
+}
+.MuiSkeleton-root {
+  background: white !important;
+  cursor: pointer;
+}
+.MuiSkeleton-text {
+  height: 6px !important;
+  margin-bottom: 6px !important;
+  background: white !important;
+  border-radius: none !important;
+  /* border-radius: 0px !important; */
+  cursor: pointer;
+}
+.top-marker {
+  width: 8vw !important;
+}
+
+.bottom-marker {
+  width: 4vw !important;
+}
+
+.skelton-body {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 1rem 1rem 1rem 0rem;
+}
+
+.comment-body-container {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin: 1rem 1rem 1rem 0rem;
+}
+.comment-body {
+}
+.comment-slice {
+  color: white;
+  gap: 1rem;
+}
+.comment-duration {
+  color: gray;
+  font-size: 12px;
+  padding: 0.2rem 0rem 0.2rem 0rem;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.username {
+  font-size: 14px;
+}
+
+.posted-comment {
+  overflow-wrap: break-word;
+  font-size: 14px;
+}
+
+
+.MuiTextarea-root{
+  background-color: black !important;
+   color: white !important;
+   height: 1rem !important;
+   border: 0.5px solid gray !important;
+}
+
+#comment-footer{
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem 0rem;
+}
+
+.post-comment{
+  color: white;
+  background-color: gray;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+
 }

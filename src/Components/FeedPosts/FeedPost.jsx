@@ -1,19 +1,17 @@
-import React from 'react'
-import PostHeader from './PostHeader'
-import PostFooter from './PostFooter'
-import FeedImage from './FeedImage'
-
+import React from "react";
+import PostHeader from "./PostHeader";
+import PostFooter from "./PostFooter";
+import FeedImage from "./FeedImage";
 
 const FeedPost = () => {
   return (
     <div>
-        <PostHeader/>
-        <FeedImage/>
-       
-        <PostFooter/>
-      
-    </div>
-  )
-}
+      <PostHeader />
+      {/* <FeedImage/> */}
 
-export default FeedPost
+      <PostFooter />
+    </div>
+  );
+};
+
+export default FeedPost;

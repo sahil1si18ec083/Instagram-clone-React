@@ -11,33 +11,31 @@ import { ToastContainer } from "react-toastify";
 const AuthPage = () => {
   const imagesArray = [AuthImage1, AuthImage2, AuthImage3, AuthImage4];
   const [visibleImage, setVisibleImage] = useState(0);
-  // useEffect(() => {
-
-  //   const timer = setTimeout(() => {
-
-  //     if (visibleImage === imagesArray.length - 1) {
-  //       setVisibleImage(0);
-  //     } else {
-  //       setVisibleImage(visibleImage + 1);
-  //     }
-  //   }, 2000);
-  //   return () => {
-  //     clearTimeout(timer);
-  //   };
-  // }, [visibleImage]);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      if (visibleImage === imagesArray.length - 1) {
+        setVisibleImage(0);
+      } else {
+        setVisibleImage(visibleImage + 1);
+      }
+    }, 2000);
+    return () => {
+      clearTimeout(timer);
+    };
+  }, [visibleImage]);
   console.log(visibleImage);
   return (
     <div className="auth-body">
-        <ToastContainer />
+      <ToastContainer />
       <div className="auth-screen">
         <div className="auth-Form-container">
           {imagesArray.map((imageSrc, index) => (
             <img
               style={{
                 display: index == visibleImage ? "block" : "none",
-                width: "413px",
+                minWidth: "413px",
                 height: "604px",
-                objectFit: "cover",
+                objectFit: "contain",
               }}
               key={index}
               src={imageSrc}

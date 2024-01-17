@@ -14,6 +14,18 @@ const CreatePost = () => {
   const handleClose = () => setOpen(false);
   const [uploadedImageUrl, setUploadedImageUrl] = useState(null);
   const caption = useRef("");
+  const style = {
+    position: "absolute",
+    top: "39%",
+    left: "50%",
+    transform: "translate(-50%, -50%)",
+    width: 400,
+    bgcolor: "black",
+    border: "2px solid white",
+    boxShadow: 24,
+    p: 4,
+    borderRadius:"0.375rem"   
+  };
   const fnToggleModalVisibility = () => {
     setOpen((prev) => !prev);
   };
@@ -29,7 +41,7 @@ const CreatePost = () => {
         <span>Create </span>
       </div>
 
-      <CustomModal open={open} handleClose={handleClose}>
+      <CustomModal open={open} handleClose={handleClose} style={style}>
         <div>
           <header className="flex-align">
             <div>Create Post</div>
